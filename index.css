@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    user-select: none;
+}
+
+#logo{
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
+
+#title-text{
+    color: #FFF;
+    font-family: Arial;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+#comment-div{
+    width: 317px;
+    height: 118px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #444059;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+
+#comment-text{
+    width: 282px;
+    height: 93px;
+    flex-shrink: 0;
+    color: #8F8F8F;
+    font-family: arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent;
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto auto;
+    resize: none;
+}
+
+#button-style{
+    display: flex;
+    width: 314.942px;
+    height: 50px;
+    
+    justify-content: center;
+    flex-shrink: 0;
+    color: #04131C;
+    text-align: center;
+    font-family: arial;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    flex-wrap: wrap;
+    margin: 2px auto;
+    background-color: #38BDF8;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+
+#endorsement-style{
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin: 20px auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 314.942px;
+    margin: 20px auto;
+}
+
+ul li {
+    font-size: 14px;
+    background-color: #FFFDF8;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    width: 314.942px;
+}
